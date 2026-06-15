@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Billbird</title>
+    <meta name="description" content="Precisa de ajuda com o Billbird? Envie sua dúvida, sugestão ou relato e responderemos em breve.">
+    <link rel="icon" type="image/png" href="../icon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="canonical" href="https://ivanlynch.github.io/billbird-docs/pt-br/support.html">
+    <link rel="alternate" hreflang="es" href="https://ivanlynch.github.io/billbird-docs/es/support.html">
+    <link rel="alternate" hreflang="en" href="https://ivanlynch.github.io/billbird-docs/en/support.html">
+    <link rel="alternate" hreflang="pt-br" href="https://ivanlynch.github.io/billbird-docs/pt-br/support.html">
+    <link rel="alternate" hreflang="x-default" href="https://ivanlynch.github.io/billbird-docs/es/support.html">
+</head>
+<body>
+
+<!-- Top bar -->
+<header class="topbar">
+    <a class="topbar-home" href="index.html">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        Voltar ao Billbird
+    </a>
+    <nav class="lang-switcher" aria-label="Idioma">
+        <a href="../es/support.html" hreflang="es">Español</a>
+        <a href="../en/support.html" hreflang="en">English</a>
+        <span aria-current="page">Português&nbsp;(BR)</span>
+    </nav>
+</header>
+
+<!-- Header -->
+<div class="page-header">
+    <div class="container container-narrow">
+        <span class="section-tag">Suporte</span>
+        <h1>Como podemos te ajudar?</h1>
+        <p>Envie sua dúvida e responderemos em breve.</p>
+    </div>
+</div>
+
+<!-- Form -->
+<div class="container container-narrow">
+    <div class="note">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <p>Ao clicar em <strong>Enviar mensagem</strong>, seu cliente de e-mail será aberto com a mensagem pronta para enviar.</p>
+    </div>
+
+    <div class="form-card">
+        <form action="mailto:ilynchdev@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="Nome" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="Email" placeholder="voce@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="tipo">Tipo de solicitação</label>
+                <select id="tipo" name="Tipo">
+                    <option value="Problema técnico">Problema técnico</option>
+                    <option value="Sugestão">Sugestão</option>
+                    <option value="Dúvida geral">Dúvida geral</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="Mensagem" placeholder="Descreva sua solicitação com o máximo de detalhes possível..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Enviar mensagem
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="privacy.html">Política de Privacidade</a>
+            <a href="terms.html">Termos e Condições</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Billbird</p>
+    </div>
+</footer>
+
+<script>try{localStorage.setItem('billbird-lang','pt-br');}catch(e){}</script>
+</body>
+</html>

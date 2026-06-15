@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Billbird</title>
+    <meta name="description" content="¿Necesitas ayuda con Billbird? Envíanos tu consulta, sugerencia o reporte y te respondemos a la brevedad.">
+    <link rel="icon" type="image/png" href="../icon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="canonical" href="https://ivanlynch.github.io/billbird-docs/es/support.html">
+    <link rel="alternate" hreflang="es" href="https://ivanlynch.github.io/billbird-docs/es/support.html">
+    <link rel="alternate" hreflang="en" href="https://ivanlynch.github.io/billbird-docs/en/support.html">
+    <link rel="alternate" hreflang="pt-br" href="https://ivanlynch.github.io/billbird-docs/pt-br/support.html">
+    <link rel="alternate" hreflang="x-default" href="https://ivanlynch.github.io/billbird-docs/es/support.html">
+</head>
+<body>
+
+<!-- Top bar -->
+<header class="topbar">
+    <a class="topbar-home" href="index.html">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        Volver a Billbird
+    </a>
+    <nav class="lang-switcher" aria-label="Idioma">
+        <span aria-current="page">Español</span>
+        <a href="../en/support.html" hreflang="en">English</a>
+        <a href="../pt-br/support.html" hreflang="pt-br">Português&nbsp;(BR)</a>
+    </nav>
+</header>
+
+<!-- Header -->
+<div class="page-header">
+    <div class="container container-narrow">
+        <span class="section-tag">Soporte</span>
+        <h1>¿En qué podemos ayudarte?</h1>
+        <p>Envianos tu consulta y te respondemos a la brevedad.</p>
+    </div>
+</div>
+
+<!-- Form -->
+<div class="container container-narrow">
+    <div class="note">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <p>Al hacer clic en <strong>Enviar mensaje</strong> se abrirá tu cliente de correo con el mensaje listo para enviar.</p>
+    </div>
+
+    <div class="form-card">
+        <form action="mailto:ilynchdev@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="Correo" placeholder="tu@correo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="tipo">Tipo de consulta</label>
+                <select id="tipo" name="Tipo">
+                    <option value="Problema técnico">Problema técnico</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Pregunta general">Pregunta general</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="Mensaje" placeholder="Describi tu consulta con el mayor detalle posible..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Enviar mensaje
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="privacy.html">Política de Privacidad</a>
+            <a href="terms.html">Términos y Condiciones</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Billbird</p>
+    </div>
+</footer>
+
+<script>try{localStorage.setItem('billbird-lang','es');}catch(e){}</script>
+</body>
+</html>
